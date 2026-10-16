@@ -1,0 +1,119 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6fb;
+  color: #202938;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 28px;
+  background: white;
+  border-radius: 14px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 24px 0;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #cbd2df;
+  border-radius: 7px;
+  font-size: 15px;
+  background: white;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  background: #2457c5;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 20px;
+  border: 1px solid #d5deef;
+  border-radius: 10px;
+  overflow-wrap: anywhere;
+}
+
+small {
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 12px;
+    padding: 18px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Keep form text readable */
+input,
+select,
+textarea {
+  color: #1f2937;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+}
+
+/* Ensure labels use a readable color */
+label {
+  color: #1f2937;
+}
+
+/* Placeholder text */
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280;
+  opacity: 1;
+}
+
+/* Dropdown options */
+select option {
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
