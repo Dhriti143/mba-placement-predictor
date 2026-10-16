@@ -232,17 +232,3 @@ This project highlights my ability to:
 ## License
 
 This project is for educational and portfolio purposes.
-
-## Author
-
-[Your Name]
-
-## Contact
-
-- Email: your.email@example.com
-- LinkedIn: linkedin.com/in/yourprofile
-- GitHub: github.com/yourusername
-
----
-
-This project is a strong example of applied machine learning and full-stack development, making it suitable for showcasing professional technical capability in a portfolio or job application.
